@@ -1,0 +1,3 @@
+.toFixed(number)
+changed the number of decimals shown!!!
+
