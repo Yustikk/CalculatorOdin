@@ -107,10 +107,10 @@ buttons.forEach( (button) => button.addEventListener("click", function(e){
                 operand="";
                 break;
             case "+/-":
-                number1=changesign(Number(number1));
+                number1=String(changesign(Number(number1)));
                 break;
             case "%":
-                number1=precent(Number(number1));
+                number1=String(precent(Number(number1)));
                 break;
             case "=":
                 a=Number(number1);
