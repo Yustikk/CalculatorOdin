@@ -47,7 +47,8 @@ button{
     box-sizing: border-box;
     background-color: rgb(255, 205, 242);
     font-size: 40px;
-    color:rgb(112, 56, 129)
+    color:rgb(112, 56, 129);
+    border-radius: 10px;;
 }
 
 #equal{
@@ -62,4 +63,8 @@ button{
     border-color: aliceblue;
     font-size: 40px;
     color:white;
+    border-radius: 10px;
+    text-align: end;
+    font-size: 100px;
+    
 }
